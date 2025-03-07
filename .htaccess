@@ -1,0 +1,12 @@
+<FilesMatch "^[^\.]+$">
+        ForceType application/x-httpd-php
+</FilesMatch>
+
+# change .html and .js files to identify as .php files
+AddType application/x-httpd-php .html
+
+RedirectMatch 403 ^/.git/.*$
+
+Require all granted
+
+Options -Indexes

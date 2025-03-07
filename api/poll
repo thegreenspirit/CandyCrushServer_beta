@@ -1,0 +1,26 @@
+<?php
+header("Content-Type: application/json");
+
+echo json_encode(array(
+	"currentUser" => array(
+		"userId" => "92798",
+		"lives" => 5,
+		"timeToNextRegeneration" => -1,
+		"gold" => "0",
+		"balance" => null,
+		"unlockedBoosters" => [],
+		"soundFx" => false,
+		"soundMusic" => false,
+		"maxLives" => "5",
+		"immortal" => false,
+		"credits" => "0",
+		"ivtotal" => "0",
+		"invreward" => "",
+		"mobileConnected" => false,
+		"coin" => "0",
+		"concoin" => "0",
+		"totalStars" => 6,
+		"coinreward" => null,
+	)
+));
+?>

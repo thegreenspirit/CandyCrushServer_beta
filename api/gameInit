@@ -1,0 +1,141 @@
+<?php
+header("Content-Type: application/json");
+$internalFilePath = "../internal_rsrc";
+$universeDescription = json_decode(file_get_contents($internalFilePath.'/universeDescription.json'), true);
+$items = json_decode(file_get_contents($internalFilePath.'/items.json'), true);
+
+$userUniverseGenerator = [];
+foreach ($universeDescription['episodeDescriptions'] as $episode) {
+	$episodeLevels = [];
+	foreach ($episode['levelDescriptions'] as $level) {
+		array_push($episodeLevels, array("id" => $level['levelId'], "episodeId" => $level['episodeId'], "score" => 2147483647, "stars" => 3, "unlocked" => true, "unlockConditionDataList" => $level['unlockConditions']));
+	}
+	array_push($userUniverseGenerator, array("id" => "{$episode['episodeId']}", "levels" => $episodeLevels));
+}
+
+echo json_encode(array(
+	"resources" => json_decode(file_get_contents($internalFilePath.'/en.json'), true),
+	
+	"properties" => [
+		"cutscene_episode_6" => "bunny",
+		"cutscene_episode_5" => "unicorn",
+		"cutscene_episode_2" => "robot",
+		"cutscene_episode_1" => "girl",
+		"cutscene_episode_4" => "yeti",
+		"cutscene_episode_3" => "dragon",
+		"ad_video_activated" => "true"
+	],
+	
+	"itemBalance" => $items,
+	
+	"recipes" => json_decode(file_get_contents($internalFilePath.'/recipes.json'), true), // unused?
+	
+	"availableBoosters" => [],
+	
+	"userProfiles" => [
+		array(
+			"userId" => "92798",
+			"externalUserId" => "",
+			"lastOnlineTime" => "0",
+			"fullName" => "Gerald Spirit",
+			"name" => "Gerald",
+			"pic" => "https://graph.spiritaccount.net/21/picture/?type=large",
+			"picSquare" => "https://graph.spiritaccount.net/21/picture/?type=square",
+			"picSmall" => "https://graph.spiritaccount.net/21/picture/?type=small",
+			"countryCode" => "US",
+			"topEpisode" => 9,
+			"topLevel" => 15,
+			"totalStars" => 100,
+			"invite" => "0",
+			"masteraward" => "",
+			"verified" => false,
+			"verified_type" => 0,
+			"lastLevelCompletedAt" => 0,
+			"lastLevelCompletedEpisodeId" => 0,
+			"lastLevelCompletedLevelId" => 0
+		),
+		array(
+			"userId" => "61",
+			"externalUserId" => "",
+			"lastOnlineTime" => "0",
+			"fullName" => "John Spirit",
+			"name" => "John",
+			"pic" => "http://thirdapp2.qlogo.cn/qzopenapp/786c4e691e255552b12bc7e10a9afd2cb85501f8b89831f0f9aa51f6f9463cd1/50",
+			"picSquare" => "http://thirdapp2.qlogo.cn/qzopenapp/786c4e691e255552b12bc7e10a9afd2cb85501f8b89831f0f9aa51f6f9463cd1/50",
+			"picSmall" => "http://thirdapp2.qlogo.cn/qzopenapp/786c4e691e255552b12bc7e10a9afd2cb85501f8b89831f0f9aa51f6f9463cd1/50",
+			"countryCode" => "US",
+			"topEpisode" => 9,
+			"topLevel" => 15,
+			"totalStars" => 6,
+			"invite" => "0",
+			"masteraward" => "",
+			"verified" => false,
+			"verified_type" => 0,
+			"lastLevelCompletedAt" => 0,
+			"lastLevelCompletedEpisodeId" => 0,
+			"lastLevelCompletedLevelId" => 0
+		),
+	],
+	
+	// too lazy to do stuff with this so it's staying as a JSON object
+	"universeDescription" => $universeDescription,
+	
+	"userUniverse" => array(
+		"episodes" => $userUniverseGenerator,
+		"unlockedItems" => []
+	),
+	
+	// Products
+	"goldProducts" => json_decode(file_get_contents($internalFilePath.'/products/goldProducts.json'), true), // looks like an in-game currency was already planned; game has it referenced but it not used anywhere
+	"itemProducts" => json_decode(file_get_contents($internalFilePath.'/products/itemProducts.json'), true),
+	"lifeProducts" => json_decode(file_get_contents($internalFilePath.'/products/lifeProducts.json'), true),
+	"extraLifeProducts" => json_decode(file_get_contents($internalFilePath.'/products/extraLifeProducts.json'), true),
+	"levelProducts" => json_decode(file_get_contents($internalFilePath.'/products/levelProducts.json'), true),
+	"creditProducts" => json_decode(file_get_contents($internalFilePath.'/products/creditProducts.json'), true), // apparently this isn't even mentioned in the swf? idk
+	"ingameProducts" => json_decode(file_get_contents($internalFilePath.'/products/ingameProducts.json'), true),
+	"multiProducts" => [], // unused, but found in the initial data
+	
+	"events" => [],
+	
+	// Reward tiers for inviting friends; scrapped content
+	"inviteReward" => [
+		array("id" => 8, "type" => "CandySwedishFish","amount" => 3, "num" => 2),
+		array("id" => 7, "type" => "CandyHammer", "amount" => 3, "num" => 5),
+		array("id" => 7, "type" => "CandyHammer", "amount" => 5, "num" => 10),
+		array("id" => 7, "type" => "CandyHammer", "amount" => 10, "num" => 20),
+		array("id" => 4, "type" => "CandyExtraMoves", "amount" => 10, "num" => 30)
+	],
+	// Reward tiers for progressing through levels (?); also scrapped content
+	"levelReward" => [
+		array("id" => 8, "type" => "CandySwedishFish", "amount" => 1, "level" => 5),
+		array("id" => 10, "type" => "CandyCoconutLiquorice", "amount" => 1, "level" => 11),
+		array("id" => 2, "type" => "CandyColorBomb", "amount" => 1, "level" => 21),
+		array("id" => 4, "type" => "CandyExtraMoves", "amount" => 1, "level" => 31)
+	],
+	
+	"adsEnabled" => false,
+	
+	"daysSinceInstall" => 2,
+	
+	"currentUser" => array(
+		"userId" => "92798",
+		"lives" => 5,
+		"timeToNextRegeneration" => -1,
+		"gold" => "0",
+		"balance" => null,
+		"unlockedBoosters" => [],
+		"soundFx" => false,
+		"soundMusic" => false,
+		"maxLives" => "5",
+		"immortal" => false,
+		"credits" => "0",
+		"ivtotal" => "0",
+		"invreward" => "",
+		"mobileConnected" => false,
+		"coin" => "0",
+		"concoin" => "0",
+		"totalStars" => 6,
+		"coinreward" => null,
+	)
+));
+?>

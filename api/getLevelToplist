@@ -1,0 +1,7 @@
+<?php
+header("Content-Type: application/json");
+$episodeId = $_GET['arg0'];
+$levelId = $_GET['arg1'];
+
+echo '{"episodeId":'.$episodeId.',"levelId":'.$levelId.',"toplist":[{"userId":"92798","name":"Green Spirit","value":2147483647},{"userId":"61","name":"Pee Spirit","value":69420}]}';
+?>

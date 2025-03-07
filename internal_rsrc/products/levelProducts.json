@@ -1,0 +1,29 @@
+[
+	{
+		"noOfInvites": 1,
+		"id": 3,
+		"name": "unlock_level_1_friend",
+		"episodeId": -1,
+		"type": "17012",
+		"itemType": "3252",
+		"cost": {"cents": 1500, "currency": "FBC"}
+	},
+	{
+		"noOfInvites": 3,
+		"id": 1,
+		"name": "unlock_level_3_friends",
+		"episodeId": -1,
+		"type": "17014",
+		"itemType": "3250",
+		"cost": {"cents": 4500, "currency": "FBC"}
+	},
+	{
+		"noOfInvites": 2,
+		"id": 2,
+		"name": "unlock_level_2_friends",
+		"episodeId": -1,
+		"type": "17013",
+		"itemType": "3251",
+		"cost": {"cents": 3000, "currency": "FBC"}
+	}
+]

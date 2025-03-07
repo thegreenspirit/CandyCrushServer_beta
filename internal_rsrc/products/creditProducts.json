@@ -1,0 +1,61 @@
+[
+	{
+		"lives": 1,
+		"id": 4,
+		"name": "one_life",
+		"amout": 1,
+		"cost": 10
+	},
+	{
+		"typeId": 3105,
+		"type": "CandySwedishFish",
+		"category": "candyBooster",
+		"id": 8,
+		"name": "CandySwedishFish",
+		"amout": 3,
+		"cost": 15
+	},
+	{
+		"typeId": 3113,
+		"type": "CandyCoconutLiquorice",
+		"category": "candyBooster",
+		"id": 10,
+		"name": "CandyCoconutLiquorice",
+		"amout": 3,
+		"cost": 20
+	},
+	{
+		"typeId": 3115,
+		"type": "CandyColorBomb",
+		"category": "candyBooster",
+		"id": 2,
+		"name": "CandyColorBomb",
+		"amout": 3,
+		"cost": 30
+	},
+	{
+		"typeId": 3110,
+		"type": "CandyHammer",
+		"category": "candyBooster",
+		"id": 7,
+		"name": "CandyHammer",
+		"amout": 3,
+		"cost": 50
+	},
+	{
+		"typeId": 3103,
+		"type": "CandyCharmOfStripedCandy",
+		"category": "candyCharm",
+		"id": 101,
+		"name": "CandyCharmOfStripedCandy",
+		"amout": 1,
+		"cost": 200
+	},
+	{
+		"id": 1,
+		"name": "3_extra_lives",
+		"extraLives": 3,
+		"amout": 1,
+		"cost": 500
+	}
+]

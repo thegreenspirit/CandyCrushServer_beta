@@ -1,0 +1,6831 @@
+{
+	"episodeDescriptions": [
+		{
+			"episodeId": 1,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 300
+						},
+						{
+							"numberOfStars": 2,
+							"points": 400
+						},
+						{
+							"numberOfStars": 3,
+							"points": 500
+						}
+					],
+					"unlockConditions": []
+				},
+				{
+					"levelId": 2,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 1900
+						},
+						{
+							"numberOfStars": 2,
+							"points": 2100
+						},
+						{
+							"numberOfStars": 3,
+							"points": 2400
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 4000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 6000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 8000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 4500
+						},
+						{
+							"numberOfStars": 2,
+							"points": 6000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 9000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 5000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 8000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 12000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 9000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 11000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 13000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 45000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 22000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 44000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 66000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 1,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":9}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 2,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 1000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 2000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 3000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":1,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 23000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 28000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 30000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 230000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 60000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 165000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 210000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 2,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 45000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":9}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 3,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 27000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":2,\"levelId\":10}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":49}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 2500
+						},
+						{
+							"numberOfStars": 2,
+							"points": 8000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 20000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 75000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 200000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 60000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 33000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 42000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 32000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 70000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 3,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 250000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 300000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 4,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 30000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":3,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":80}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 110000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 60000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 22000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 33000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 44000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 78000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 93000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 175000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 250000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 35000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 125000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 75000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 4,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 33000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 160000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 200000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 5,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 45000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":4,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":115}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 125000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 140000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 35000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 130000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 55000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 30000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 5,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 220000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 310000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 6,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 140000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":5,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":150}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 180000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 250000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 95000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 115000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 110000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 190000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 160000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 190000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 230000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 160000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 180000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 6,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 30000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 7,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":6,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":180}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 125000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 75000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 40000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 110000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 180000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 160000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 125000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 65000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 130000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 130000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 170000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 30000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 7,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 8,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 50000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":7,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":215}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 115000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 110000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 130000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 160000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 85000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 110000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 115000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 145000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 125000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 175000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 115000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 145000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 14000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 23000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 32000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 8,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 200000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 9,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 160000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 220000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":8,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":250}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 125000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 50000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 65000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 130000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 160000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 105000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 75000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 105000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 115000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 70000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 110000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 140000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 180000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 9,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 145000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 10,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 55000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":9,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":285}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 5000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 35000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 25000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 95000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 40000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 85000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 105000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 35000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 10,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 11,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 28000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":10,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":320}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 140000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 125000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 140000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 26000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 32000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 110000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 180000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 220000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 110000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 130000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 60000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 60000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 70000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 11,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 95000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 160000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 185000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 12,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 40000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":11,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":355}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 60000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 50000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 40000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 110000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 135000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 85000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 110000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 35000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 190000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 75000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 12,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 110000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 220000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 260000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 13,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":12,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":390}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 30000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 110000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 50000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 50000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 75000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 210000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 65000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 55000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 70000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 13,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 300000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 14,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 65000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":13,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":425}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 150000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 190000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 40000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 70000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 170000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 280000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 310000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 6000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 18000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 28000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 105000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 70000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 55000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 120000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 30000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 145000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 185000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 215000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 14,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 130000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 15,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 135000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 190000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 240000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":14,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":460}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 170000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 135000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 160000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 75000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 125000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 60000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 60000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 135000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 165000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 185000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 85000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 115000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 15,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 150000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 16,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 40000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":15,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":495}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 35000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 105000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 65000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 300000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 55000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 180000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 220000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 95000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 125000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 16,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 170000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 17,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 200000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 240000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":16,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":530}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 95000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 145000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 215000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 255000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 160000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 280000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 320000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 135000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 175000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 15000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 20000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 130000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 160000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 160000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 20000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 170000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 65000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 90000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 17,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 180000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 18,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 40000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":17,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":570}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 35000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 105000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 65000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 300000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 55000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 180000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 220000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 95000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 125000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 18,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 170000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"episodeId": 19,
+			"levelDescriptions": [
+				{
+					"levelId": 1,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 40000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":18,\"levelId\":15}"
+						},
+						{
+							"type": "FriendInviteUnlockCondition",
+							"data": "{\"numOfFriendsRequired\":3,\"isBuyable\":true}"
+						},
+						{
+							"type": "StarUnlockCondition",
+							"data": "{\"totalStar\":620}"
+						}
+					]
+				},
+				{
+					"levelId": 2,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 75000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":1}"
+						}
+					]
+				},
+				{
+					"levelId": 3,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 35000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":2}"
+						}
+					]
+				},
+				{
+					"levelId": 4,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 105000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":3}"
+						}
+					]
+				},
+				{
+					"levelId": 5,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 65000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":4}"
+						}
+					]
+				},
+				{
+					"levelId": 6,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 50000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 100000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 300000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":5}"
+						}
+					]
+				},
+				{
+					"levelId": 7,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 90000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 120000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":6}"
+						}
+					]
+				},
+				{
+					"levelId": 8,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 35000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 45000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 55000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":7}"
+						}
+					]
+				},
+				{
+					"levelId": 9,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 25000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 85000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":8}"
+						}
+					]
+				},
+				{
+					"levelId": 10,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 55000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":9}"
+						}
+					]
+				},
+				{
+					"levelId": 11,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 180000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 220000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":10}"
+						}
+					]
+				},
+				{
+					"levelId": 12,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 10000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 60000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 80000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":11}"
+						}
+					]
+				},
+				{
+					"levelId": 13,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 30000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 95000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 125000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":12}"
+						}
+					]
+				},
+				{
+					"levelId": 14,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 40000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 70000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 100000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":13}"
+						}
+					]
+				},
+				{
+					"levelId": 15,
+					"episodeId": 19,
+					"starProgressions": [
+						{
+							"numberOfStars": 1,
+							"points": 80000
+						},
+						{
+							"numberOfStars": 2,
+							"points": 140000
+						},
+						{
+							"numberOfStars": 3,
+							"points": 170000
+						}
+					],
+					"unlockConditions": [
+						{
+							"type": "LevelCompletedUnlockCondition",
+							"data": "{\"episodeId\":19,\"levelId\":14}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"starAchievementItemLocks": []
+}

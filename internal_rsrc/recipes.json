@@ -1,0 +1,163 @@
+[
+	{
+		"name": "ColorRemoveRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyColorRemove", "amount": 1}
+		]
+	},
+	{
+		"name": "CharmOfFrozenTime",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyCharmOfFrozenTime","amount": 1}
+		]
+	},
+	{
+		"name": "MarshmallowRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyMarshmallow", "amount": 1}
+		]
+	},
+	{
+		"name": "ExtraMovesRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyExtraMoves", "amount": 1}
+		]
+	},
+	{
+		"name": "CoconutLiquoriceRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyCoconutLiquorice", "amount": 1}
+		]
+	},
+	{
+		"name": "ShuffleRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyShuffle", "amount": 1}
+		]
+	},
+	{
+		"name": "SugarDustingRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandySugarDusting", "amount": 1}
+		]
+	},
+	{
+		"name": "CharmOfLife",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyCharmOfExtraLife", "amount": 1}
+		]
+	},
+	{
+		"name": "DoubleScoresRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyDoubleScores", "amount": 1}
+		]
+	},
+	{
+		"name": "ExtraTimeRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 2},
+			{"type": "CandyWrapped", "amount": 2}
+		],
+		"outputtypeIds": [
+			{"type": "CandyExtraTime", "amount": 3}
+		]
+	},
+	{
+		"name": "CandyColorBombRecipe",
+		"inputstypeIds": [
+			{"type": "CandyChocolateBall", "amount": 1},
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyColorBomb", "amount": 3}
+		]
+	},
+	{
+		"name": "CharmOfStripedCandy",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyCharmOfStripedCandy", "amount": 1}
+		]
+	},
+	{
+		"name": "ComboHelperRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyComboHelper", "amount": 1}
+		]
+	},
+	{
+		"name": "HammerRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyHammer", "amount": 1}
+		]
+	},
+	{
+		"name": "SwedishFishRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandySwedishFish", "amount": 1}
+		]
+	},
+	{
+		"name": "FreeSwitchRecipe",
+		"inputstypeIds": [
+			{"type": "CandyStriped", "amount": 1},
+			{"type": "CandyWrapped", "amount": 1}
+		],
+		"outputtypeIds": [
+			{"type": "CandyFreeSwitch", "amount": 1}
+		]
+	}
+]

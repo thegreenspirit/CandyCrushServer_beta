@@ -1,0 +1,42 @@
+<?php
+header("Content-Type: application/json");
+
+$episodeId = $_GET['arg0'];
+$levelId = $_GET['arg1'];
+
+$internalFilePath = "../internal_rsrc";
+$gameConfigurations = json_decode(file_get_contents($internalFilePath.'/game-configurations.json'), true);
+
+foreach ($gameConfigurations as $level) {
+	if ($episodeId == $level['episode'] && $levelId == $level['level']) {
+		$levelData = json_decode($level['gameData'], true);
+		break;
+	}
+}
+
+echo json_encode(array(
+	"levelData" => $levelData,
+	"seed" => 1233973519,
+	
+	"currentUser" => array(
+		"userId" => "92798",
+		"lives" => 5,
+		"timeToNextRegeneration" => -1,
+		"gold" => "0",
+		"balance" => null,
+		"unlockedBoosters" => [],
+		"soundFx" => false,
+		"soundMusic" => false,
+		"maxLives" => "5",
+		"immortal" => false,
+		"credits" => "0",
+		"ivtotal" => "0",
+		"invreward" => "",
+		"mobileConnected" => false,
+		"coin" => "0",
+		"concoin" => "0",
+		"totalStars" => 6,
+		"coinreward" => null,
+	)
+));
+?>

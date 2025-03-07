@@ -1,0 +1,39 @@
+<?php
+header("Content-Type: application/json");
+
+echo json_encode(array(
+	"events" => [
+		// array('type' => "LIFE_GIFT", 'data' => json_encode(array("fromId" => "61"))),
+		
+		array('type' => "LIFE_REQUEST", 'data' => json_encode(array("fromId" => "61"))),
+		array('type' => "LIFE_REQUEST", 'data' => json_encode(array("fromId" => "61"))),
+		array('type' => "LIFE_REQUEST", 'data' => json_encode(array("fromId" => "61"))),
+		array('type' => "LIFE_REQUEST", 'data' => json_encode(array("fromId" => "61"))),
+		array('type' => "LEVEL_UNLOCK_REQUEST", 'data' => json_encode(array("fromId" => "61", "episodeId" => 5, "levelId" => 15))),
+		
+		array('type' => "LEVEL_UNLOCKED", 'data' => json_encode(array("episodeId" => 5, "levelId" => 15))),
+		array('type' => "UNLOCK_HELP_ACCEPTED", 'data' => json_encode(array("userId" => "61", "episodeId" => 5, "levelId" => 15))),
+	],
+	
+	"currentUser" => array(
+		"userId" => "92798",
+		"lives" => 5,
+		"timeToNextRegeneration" => -1,
+		"gold" => "0",
+		"balance" => null,
+		"unlockedBoosters" => [],
+		"soundFx" => false,
+		"soundMusic" => false,
+		"maxLives" => "5",
+		"immortal" => false,
+		"credits" => "0",
+		"ivtotal" => "0",
+		"invreward" => "",
+		"mobileConnected" => false,
+		"coin" => "0",
+		"concoin" => "0",
+		"totalStars" => 6,
+		"coinreward" => null,
+	)
+));
+?>

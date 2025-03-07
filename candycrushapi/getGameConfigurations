@@ -1,0 +1,7 @@
+<?php
+header("Content-Type: application/json");
+$internalFilePath = "../internal_rsrc";
+$gameConfigurations = json_decode(file_get_contents($internalFilePath.'/game-configurations.json'), true);
+
+echo json_encode($gameConfigurations);
+?>

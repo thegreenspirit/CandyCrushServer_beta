@@ -1,0 +1,18 @@
+{
+	"candyProperties": {
+		"introduceBoosterCandyHammer": "true",
+		"introduceBoosterCandyColorBomb": "true",
+		"introduceBoosterCandyExtraTime": "true",
+		"introduceBoosterCandyExtraMoves": "true",
+		"introduceBoosterCandySwedishFish": "true",
+		"introduceBoosterCandyStripedBrush": "true",
+		"introduceBoosterCandyStripedWrapped": "true",
+		"introduceBoosterCandyCoconutLiquorice": "true",
+		"introduceBoosterCandyColorRemove": "false",
+		"introduceBoosterCandyComboHelper": "false",
+		"introduceBoosterCandyDoubleScores": "false",
+		"introduceBoosterCandyMarshmallow": "false",
+		"introduceBoosterCandyShuffle": "false",
+		"introduceBoosterCandySugarDusting": "false"
+	}
+}

@@ -1,0 +1,9 @@
+[
+	{"typeId":3110,"type":"CandyHammer","category":"candyBooster","amount":99,"availability":2,"leaseStatus":0},
+	{"typeId":3109,"type":"CandyExtraMoves","category":"candyBooster","amount":99,"availability":2,"leaseStatus":0},
+	{"typeId":3113,"type":"CandyCoconutLiquorice","category":"candyBooster","amount":99,"availability":2,"leaseStatus":0},
+	{"typeId":3103,"type":"CandyCharmOfStripedCandy","category":"candyCharm","amount":1,"availability":2,"leaseStatus":0},
+	{"typeId":3105,"type":"CandySwedishFish","category":"candyBooster","amount":99,"availability":2,"leaseStatus":0},
+	{"typeId":3115,"type":"CandyColorBomb","category":"candyBooster","amount":99,"availability":2,"leaseStatus":0},
+	{"typeId":3114,"type":"CandyCharmOfExtraLife","category":"candyCharm","amount":1,"availability":2,"leaseStatus":0}
+]

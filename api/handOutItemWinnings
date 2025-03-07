@@ -1,0 +1,7 @@
+<?php
+header("Content-Type: application/json");
+$internalFilePath = "../internal_rsrc";
+$items = json_decode(file_get_contents($internalFilePath.'/items.json'), true);
+
+exit(json_encode($items));
+?>

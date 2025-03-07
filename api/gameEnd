@@ -1,0 +1,76 @@
+<?php
+header("Content-Type: application/json");
+$data = json_decode($_GET['arg0'], true);
+$internalFilePath = "../internal_rsrc";
+$gameConfigurations = json_decode(file_get_contents($internalFilePath.'/game-configurations.json'), true);
+$universeDescription = json_decode(file_get_contents($internalFilePath.'/universeDescription.json'), true);
+
+// get stars
+$stars = 0;
+foreach ($gameConfigurations as $level) {
+	if ($data['episodeId'] == $level['episode'] && $data['levelId'] == $level['level']) {
+		$levelData = json_decode($level['gameData'], true);
+		break;
+	}
+}
+if (isset($levelData)) {
+	foreach ($levelData['scoreTargets'] as $s) {
+		if ($data['score'] >= $s)
+			$stars += 1;
+	}
+}
+
+$userUniverseGenerator = [];
+foreach ($universeDescription['episodeDescriptions'] as $episode) {
+	$episodeLevels = [];
+	foreach ($episode['levelDescriptions'] as $level) {
+		array_push($episodeLevels, array("id" => $level['levelId'], "episodeId" => $level['episodeId'], "score" => 2147483647, "stars" => 3, "unlocked" => true, "unlockConditionDataList" => $level['unlockConditions']));
+	}
+	array_push($userUniverseGenerator, array("id" => "{$episode['episodeId']}", "levels" => $episodeLevels));
+}
+
+echo json_encode(array(
+	"bestResult" => false,
+	"newStarLevel" => false,
+	"episodeId" => $data['episodeId'],
+	"levelId" => $data['levelId'],
+	"score" => $data['score'],
+	"stars" => $stars,
+	"events" => [],
+	
+	"levelToplist" => array(
+		"episodeId" => $data['episodeId'],
+		"levelId" => $data['levelId'],
+		"toplist" => [
+			array("userId" => "92798", "name" => "Green Spirit", "value" => 2147483647),
+			array("userId" => "61", "name" => "Pee Spirit", "value" => 69420),
+		]
+	),
+	
+	"userUniverse" => array(
+		"episodes" => $userUniverseGenerator,
+		"unlockedItems" => []
+	),
+	
+	"currentUser" => array(
+		"userId" => "92798",
+		"lives" => 5,
+		"timeToNextRegeneration" => -1,
+		"gold" => "0",
+		"balance" => null,
+		"unlockedBoosters" => [],
+		"soundFx" => false,
+		"soundMusic" => false,
+		"maxLives" => "5",
+		"immortal" => false,
+		"credits" => "0",
+		"ivtotal" => "0",
+		"invreward" => "",
+		"mobileConnected" => false,
+		"coin" => "0",
+		"concoin" => "0",
+		"totalStars" => 6,
+		"coinreward" => null,
+	)
+));
+?>

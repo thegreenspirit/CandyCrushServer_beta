@@ -1,0 +1,21 @@
+<?php
+
+echo json_encode(array(
+	'mission' => [
+		array(
+			'id' => 'aaa',
+			'kingAppId' => '1',
+			'shortName' => 'bubblewitch',
+			'clientType' => 'FLASH',
+			'url' => '',
+			'missionImageUrl' => '',
+			'missionPrizeImageUrl' => '',
+			'resources' => null,
+		),
+	],
+	'reward' => null,
+	'status' => 'available',
+	'generalResources' => null,
+));
+exit;
+?>

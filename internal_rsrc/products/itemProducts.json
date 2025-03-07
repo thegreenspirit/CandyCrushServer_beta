@@ -1,0 +1,209 @@
+[
+	{
+		"typeId": 3101,
+		"type": "CandyColorRemove",
+		"category": "candyBooster",
+		"id": 5,
+		"name": "CandyColorRemove",
+		"itemType": "0",
+		"cost": {"cents": 500, "currency": "FBC"}
+	},
+	{
+		"typeId": 3102,
+		"type": "CandyShuffle",
+		"category": "candyBooster",
+		"id": 12,
+		"name": "CandyShuffle",
+		"itemType": "3110",
+		"cost": {"cents": 500, "currency": "FBC"}
+	},
+	{
+		"typeId": 3103,
+		"type": "CandyCharmOfStripedCandy",
+		"category": "candyCharm",
+		"id": 101,
+		"name": "CandyCharmOfStripedCandy",
+		"itemType": "3201",
+		"cost": {"cents": 30000, "currency": "FBC"}
+	},
+	{
+		"typeId": 3104,
+		"type": "CandyComboHelper",
+		"category": "candyBooster",
+		"id": 6,
+		"name": "CandyComboHelper",
+		"itemType": "0",
+		"cost": {"cents": 600, "currency": "FBC"}
+	},
+	{
+		"typeId": 3105,
+		"type": "CandySwedishFish",
+		"category": "candyBooster",
+		"id": 8,
+		"name": "CandySwedishFish",
+		"itemType": "3106",
+		"cost": {"cents": 2900, "currency": "FBC"}
+	},
+	{
+		"typeId": 3106,
+		"type": "CandyMarshmallow",
+		"category": "candyBooster",
+		"id": 11,
+		"name": "CandyMarshmallow",
+		"itemType": "0",
+		"cost": {"cents": 600, "currency": "FBC"}
+	},
+	{
+		"typeId": 3107,
+		"type": "CandyExtraTime",
+		"category": "candyBooster",
+		"id": 1,
+		"name": "CandyExtraTime",
+		"itemType": "3100",
+		"cost": {"cents": 500, "currency": "FBC"}
+	},
+	{
+		"typeId": 3108,
+		"type": "CandySugarDusting",
+		"category": "candyBooster",
+		"id": 13,
+		"name": "CandySugarDusting",
+		"itemType": "0",
+		"cost": {"cents": 800, "currency": "FBC"}
+	},
+	{
+		"typeId": 3109,
+		"type": "CandyExtraMoves",
+		"category": "candyBooster",
+		"id": 4,
+		"name": "CandyExtraMoves",
+		"itemType": "3102",
+		"cost": {"cents": 900, "currency": "FBC"}
+	},
+	{
+		"typeId": 3110,
+		"type": "CandyHammer",
+		"category": "candyBooster",
+		"id": 7,
+		"name": "CandyHammer",
+		"itemType": "3105",
+		"cost": {"cents": 2900, "currency": "FBC"}
+	},
+	{
+		"typeId": 3111,
+		"type": "CandyDoubleScores",
+		"category": "candyBooster",
+		"id": 9,
+		"name": "CandyDoubleScores",
+		"itemType": "0",
+		"cost": {"cents": 900, "currency": "FBC"}
+	},
+	{
+		"typeId": 3112,
+		"type": "CandyStriped",
+		"category": "candyBooster",
+		"id": 3,
+		"name": "CandyStriped",
+		"itemType": "0",
+		"cost": {"cents": 500, "currency": "FBC"}
+	},
+	{
+		"typeId": 3113,
+		"type": "CandyCoconutLiquorice",
+		"category": "candyBooster",
+		"id": 10,
+		"name": "CandyCoconutLiquorice",
+		"itemType": "3108",
+		"cost": {"cents": 6900, "currency": "FBC"}
+	},
+	{
+		"typeId": 3114,
+		"type": "CandyCharmOfExtraLife",
+		"category": "candyCharm",
+		"id": 100,
+		"name": "CandyCharmOfExtraLife",
+		"itemType": "0",
+		"cost": {"cents": 20000, "currency": "FBC"}
+	},
+	{
+		"typeId": 3115,
+		"type": "CandyColorBomb",
+		"category": "candyBooster",
+		"id": 2,
+		"name": "CandyColorBomb",
+		"itemType": "3101",
+		"cost": {"cents": 3800, "currency": "FBC"}
+	},
+	{
+		"typeId": 3116,
+		"type": "CandyExtraMovesPostGame",
+		"category": "candyBooster",
+		"id": 105,
+		"name": "CandyExtraMovesPostGame",
+		"itemType": "3119",
+		"cost": {"cents": 3900, "currency": "FBC"}
+	},
+	{
+		"typeId": 3117,
+		"type": "CandyAntiPeppar",
+		"category": "candyBooster",
+		"id": 106,
+		"name": "CandyAntiPeppar",
+		"itemType": "3120",
+		"cost": {"cents": 3900, "currency": "FBC"}
+	},
+	{
+		"typeId": 3118,
+		"type": "CandyCharmOfFrozenTime",
+		"category": "candyCharm",
+		"id": 104,
+		"name": "CandyCharmOfFrozenTime",
+		"itemType": "3202",
+		"cost": {"cents": 47000, "currency": "FBC"}
+	},
+	{
+		"typeId": 3119,
+		"type": "CandyStripedWrapped",
+		"category": "candyBooster",
+		"id": 108,
+		"name": "CandyStripedWrapped",
+		"itemType": "3122",
+		"cost": {"cents": 2000, "currency": "FBC"}
+	},
+	{
+		"typeId": 3120,
+		"type": "CandyAntiPepparPostGame",
+		"category": "candyBooster",
+		"id": 107,
+		"name": "CandyAntiPepparPostGame",
+		"itemType": "3121",
+		"cost": {"cents": 4000, "currency": "FBC"}
+	},
+	{
+		"typeId": 3121,
+		"type": "CandyFreeSwitch",
+		"category": "candyBooster",
+		"id": 14,
+		"name": "CandyFreeSwitch",
+		"itemType": "3118",
+		"cost": {"cents": 6000, "currency": "FBC"}
+	},
+	{
+		"typeId": 3122,
+		"type": "CandyExtraTimePostGame",
+		"category": "candyBooster",
+		"id": 201,
+		"name": "CandyExtraTimePostGame",
+		"itemType": "3123",
+		"cost": {"cents": 6000, "currency": "FBC"}
+	},
+	{
+		"typeId": 3123,
+		"type": "CandyJoker",
+		"category": "candyBooster",
+		"id": 202,
+		"name": "CandyJoker",
+		"itemType": "3124",
+		"cost": {"cents": 6000, "currency": "FBC"}
+	}
+]

@@ -1,0 +1,18 @@
+[
+	{
+		"lives": 0,
+		"id": 3,
+		"name": "full_life",
+		"type": "17001",
+		"itemType": "3260",
+		"cost": {"cents": 1900, "currency": "FBC"}
+	},
+	{
+		"lives": 1,
+		"id": 4,
+		"name": "one_life",
+		"type": "0",
+		"itemType": "0",
+		"cost": {"cents": 900, "currency": "FBC"}
+	}
+]
